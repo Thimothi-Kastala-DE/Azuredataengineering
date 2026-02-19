@@ -1,0 +1,23 @@
+{
+	"name": "DS_http_source",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Http",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "/anshlambagit/Azure-Data-Factory/refs/heads/main/Raw%20Data/Fact_Sales_1.csv"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
