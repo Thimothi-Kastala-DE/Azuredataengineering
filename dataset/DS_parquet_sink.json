@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "file1.parquet",
 				"folderPath": "parquet",
 				"fileSystem": "sink"
 			},
