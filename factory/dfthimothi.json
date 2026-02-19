@@ -1,0 +1,9 @@
+{
+	"name": "dfthimothi",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c8c2be7c-9c56-4ab7-b2e5-f828074257ab",
+		"tenantId": "fcc4d193-a92a-4411-8c80-1227014abe2a"
+	}
+}
